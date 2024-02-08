@@ -16,6 +16,14 @@
   background-color: rgb(61, 189, 189);
 }
 
+.debug #contact-me {
+  background-color: blueviolet;
+}
+
+.debug footer {
+  background-color: grey;
+}
+
 [class*="col"] {
   border: 1px dashed;
   height: 5rem;
