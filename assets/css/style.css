@@ -3,9 +3,17 @@
   background-color: rgb(192, 192, 192);
 }
 
-.jumbotron {
+.debug #jumbotron {
   height: 400px;
   background-color: aqua;
+}
+
+.debug #portfolio {
+  background-color: bisque;
+}
+
+.debug #about {
+  background-color: rgb(61, 189, 189);
 }
 
 [class*="col"] {
