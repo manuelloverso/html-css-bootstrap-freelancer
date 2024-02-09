@@ -35,6 +35,7 @@ a {
 :root {
   --bg-header: #2c3e50;
   --bg-jumbotron-about: #1abc9c;
+  --footer: #3a546d;
 
   --portfolio-1: #ba4b63;
   --portfolio-2: #1ea4b6;
@@ -180,6 +181,50 @@ header {
 }
 
 /* #endregion MAIN */
+
+/* #region FOOTER */
+
+footer {
+  .upper-footer {
+    background-color: var(--footer);
+  }
+
+  .lower-footer {
+    background-color: var(--bg-header);
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+  }
+
+  .icons {
+    gap: 1rem;
+  }
+
+  .icon {
+    width: 50px;
+    aspect-ratio: 1;
+  }
+
+  .upper-footer .col-12 {
+    & p {
+      font-size: 1.2rem;
+    }
+
+    & h6 {
+      @media (min-width: 768px) {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .upper-footer .col-12:last-child p > a {
+    color: var(--bg-jumbotron-about);
+    text-decoration: none;
+  }
+}
+
+/* #region FOOTER */
 
 @media screen and (min-width: 768px) {
   .star-divider .line {
