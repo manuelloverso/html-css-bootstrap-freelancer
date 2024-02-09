@@ -125,6 +125,30 @@ header {
     color: var(--bg-header);
   }
 
+  .card {
+    position: relative;
+
+    .middle {
+      font-size: 3rem;
+      color: white;
+      font-weight: 600;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+
+  .card:hover img {
+    opacity: 0.3;
+  }
+
+  .card:hover .middle {
+    opacity: 1;
+    z-index: 1;
+  }
+
   .card > img {
     border-radius: 15px;
   }
@@ -224,7 +248,7 @@ footer {
   }
 }
 
-/* #region FOOTER */
+/* #endregion FOOTER */
 
 @media screen and (min-width: 768px) {
   .star-divider .line {
