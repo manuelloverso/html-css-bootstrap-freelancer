@@ -3,8 +3,7 @@
 }
 
 .debug #jumbotron {
-  height: 400px;
-  background-color: aqua;
+  /* height: 400px; */
 }
 
 .debug #portfolio {
@@ -25,7 +24,7 @@
 
 [class*="col-"] {
   border: 1px dashed;
-  height: 200px;
+  /* height: 200px; */
 }
 
 a {
@@ -44,6 +43,21 @@ a {
   --portfolio-5: #0e38b5;
   --portfolio-6: #ccb2a3;
 }
+
+/* #region UTILITIES */
+
+.star-divider {
+  .line {
+    width: 4rem;
+    border-top: 4px solid white;
+  }
+
+  & i {
+    font-size: 1.6rem;
+  }
+}
+
+/* #endregion UTILITIES */
 
 /* #region HEADER */
 
@@ -68,3 +82,25 @@ header {
 }
 
 /* #endregion HEADER */
+
+/* #region MAIN */
+
+#jumbotron {
+  background-color: var(--bg-jumbotron-about);
+
+  & h2 {
+    font-size: 2rem;
+  }
+
+  img {
+    max-width: 212px;
+  }
+}
+
+/* #endregion MAIN */
+
+/* @media screen and (min-width: 768px) {
+  .line {
+    width: 5rem;
+  }
+} */
