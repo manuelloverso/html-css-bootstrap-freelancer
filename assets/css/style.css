@@ -7,7 +7,7 @@
 }
 
 .debug #portfolio {
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 .debug #about {
@@ -23,7 +23,7 @@
 }
 
 [class*="col-"] {
-  border: 1px dashed;
+  /* border: 1px dashed; */
   /* height: 200px; */
 }
 
@@ -62,6 +62,7 @@ a {
 /* #region HEADER */
 
 header {
+  height: 80px;
   background-color: var(--bg-header);
   color: white;
 }
@@ -104,6 +105,20 @@ header {
 
   img {
     max-width: 212px;
+  }
+}
+
+#portfolio {
+  .star-divider .line {
+    border-color: var(--bg-header);
+  }
+
+  .star-divider i {
+    color: var(--bg-header);
+  }
+
+  .card > img {
+    border-radius: 15px;
   }
 }
 
