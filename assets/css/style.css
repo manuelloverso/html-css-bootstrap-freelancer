@@ -122,10 +122,19 @@ header {
   }
 }
 
+#about {
+  background-color: var(--bg-jumbotron-about);
+
+  & p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
 /* #endregion MAIN */
 
 @media screen and (min-width: 768px) {
   .star-divider .line {
-    width: 5rem;
+    width: 6rem;
   }
 }
