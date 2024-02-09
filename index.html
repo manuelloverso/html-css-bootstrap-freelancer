@@ -23,7 +23,7 @@
     <!-- Site Header -->
     <header class="d-flex">
       <div class="d-flex container justify-content-between align-items-center">
-        <div class="logo">START BOOTSTRAP</div>
+        <a href="#" class="logo">START BOOTSTRAP</a>
 
         <nav class="navbar navbar-expand-md">
           <button class="navbar-toggler border-light">
@@ -43,7 +43,7 @@
     <!-- Site Main -->
     <main>
       <!-- Jumbotron Section -->
-      <section id="jumbotron" class="py-4 text-light">
+      <section id="jumbotron" class="py-5 text-light">
         <div class="container">
           <div class="row d-flex justify-content-center">
             <div class="col-12 d-flex align-items-center flex-column">
@@ -127,7 +127,7 @@
           </div>
           <div class="row justify-content-center px-xl-5">
             <div class="col-8 col-md-5 col-xl-6">
-              <p>
+              <p class="mb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
                 commodi ea nesciunt eum optio enim repellendus adipisci, debitis
                 temporibus aliquam voluptates fugit velit a mollitia blanditiis
@@ -135,27 +135,70 @@
               </p>
             </div>
             <div class="col-8 col-md-5 col-xl-6">
-              <p>
+              <p class="mb-4">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
                 id, et dignissimos delectus, ducimus aperiam eius optio quae
                 deserunt sunt dicta iure asperiores, alias a vel molestias iste
                 officiis? Recusandae.
               </p>
             </div>
+
+            <div class="col-12 d-flex justify-content-center">
+              <a href="#" type="button" class="btn btn-outline-light"
+                ><i class="fa-solid fa-download"></i> Download</a
+              >
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Contact Me Section -->
-      <section id="contact-me">
+      <section id="contact-me" class="py-5">
         <div class="container">
           <div class="row">
-            <div class="col-12 d-flex justify-content-center">Contact Me</div>
+            <div class="col-12 d-flex flex-column align-items-center">
+              <h3 class="mb-3">CONTACT ME</h3>
+              <div class="star-divider d-flex align-items-center mb-3">
+                <div class="line"></div>
+                <i class="fa-solid fa-star mx-2 mx-md-4"></i>
+                <div class="line"></div>
+              </div>
+            </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-8 col-md-5 col-xl-6"></div>
-            <div class="col-8 col-md-5 col-xl-6"></div>
-            <div class="col-8 col-md-10 col-xl-12">Send</div>
+            <div class="col-8 col-md-11">
+              <form action="" class="col-12">
+                <div class="col-12">
+                  <input
+                    class="form-control form-control-lg border-0 border-bottom rounded-0 pb-3 ps-0"
+                    type="text"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    class="form-control form-control-lg border-0 border-bottom rounded-0 pb-3 ps-0"
+                    type="email"
+                    placeholder="Email Address"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    class="form-control form-control-lg border-0 border-bottom rounded-0 pb-3 ps-0"
+                    type="number"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form-control form-control-lg border-0 border-bottom rounded-0 pb-3 ps-0"
+                    placeholder="Message"
+                    rows="4"
+                  >
+                  </textarea>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>
